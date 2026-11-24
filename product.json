@@ -1,0 +1,10 @@
+{
+ "name": "Electrolux PerfectCare 700 front-loading washing machine, 9 kg",
+ "model": "EW7F7649U2",
+ "dimensions_mm": {"width": 597, "depth": 636, "height": 847},
+ "colour": "white body, black control panel and black door ring with a chrome inner ring, tinted door glass",
+ "notes": "Drum volume 69 l. The drain pump filter sits behind a round hatch at the bottom right of the front; the filter is a white round cap with a blue grip that unscrews anticlockwise. The detergent drawer is top left.",
+ "photos": ["01.jpg", "02.jpg", "07.jpg", "08.jpg", "03.jpg", "06.jpg"],
+ "photo_notes": ["front", "three-quarter from the right", "filter hatch opened, filter in place", "filter hatch opened, filter being removed", "control panel", "detergent drawer pulled out, from above"],
+ "source": "Product gallery at elon.se (retailer), fetched 2026-09-28; photos are not committed"
+}
