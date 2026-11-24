@@ -1,0 +1,236 @@
+{
+ "title": "How to clean the drain pump filter",
+ "subtitle": "Electrolux PerfectCare 700, 9 kg — EW7F7649U2",
+ "steps": [
+  {
+   "caption": "Clean the drain pump filter",
+   "narration": "The drain pump filter is behind the round hatch at the bottom right.",
+   "shot": {
+    "target": "Machine",
+    "distance": 1.8,
+    "azimuth": 0,
+    "elevation": 10
+   },
+   "actions": [],
+   "highlight": "FilterHatch",
+   "effects": [],
+   "min_seconds": 5
+  },
+  {
+   "caption": "Unplug and prepare for water",
+   "narration": "Switch off, unplug, and let hot water cool. Have a towel and shallow container ready: water may run out.",
+   "shot": {
+    "target": "Machine",
+    "distance": 1.8,
+    "azimuth": 0,
+    "elevation": 10
+   },
+   "actions": [],
+   "highlight": null,
+   "effects": [],
+   "min_seconds": 6
+  },
+  {
+   "caption": "Open, lower, and place container",
+   "narration": "Open the hatch and lower the drain guide. Place the shallow container underneath before turning the filter.",
+   "shot": {
+    "target": "BlueDrainGuide",
+    "distance": 0.8,
+    "azimuth": -10,
+    "elevation": 25
+   },
+   "actions": [
+    {
+     "part": "FilterHatch",
+     "to": 1
+    },
+    {
+     "part": "BlueDrainGuide",
+     "to": 1
+    }
+   ],
+   "highlight": "BlueDrainGuide",
+   "effects": [
+    {
+     "container": "place"
+    }
+   ],
+   "min_seconds": 6
+  },
+  {
+   "caption": "Loosen slightly and catch water",
+   "narration": "Turn the filter slightly anticlockwise, without removing it. Water runs down the guide and fills the container.",
+   "shot": {
+    "target": "BlueDrainGuide",
+    "distance": 0.75,
+    "azimuth": -10,
+    "elevation": 25
+   },
+   "actions": [
+    {
+     "part": "PumpFilter",
+     "to": 0.08
+    }
+   ],
+   "highlight": "PumpFilter",
+   "effects": [
+    {
+     "water": "flow"
+    },
+    {
+     "level": 0.85
+    }
+   ],
+   "min_seconds": 6
+  },
+  {
+   "caption": "Stop water, empty, and return",
+   "narration": "When nearly full, tighten the filter clockwise to stop the water. Take the container away, empty it, and put it back.",
+   "shot": {
+    "target": "BlueDrainGuide",
+    "distance": 0.85,
+    "azimuth": -10,
+    "elevation": 25
+   },
+   "actions": [
+    {
+     "part": "PumpFilter",
+     "to": 0
+    }
+   ],
+   "highlight": "PumpFilter",
+   "effects": [
+    {
+     "water": "stop"
+    },
+    {
+     "container": "out"
+    },
+    {
+     "container": "back"
+    },
+    {
+     "level": 0
+    }
+   ],
+   "min_seconds": 6
+  },
+  {
+   "caption": "Drain the remaining water",
+   "narration": "Loosen slightly again and let the remaining water drain until it stops. Repeat the emptying cycle if needed.",
+   "shot": {
+    "target": "BlueDrainGuide",
+    "distance": 0.75,
+    "azimuth": -10,
+    "elevation": 25
+   },
+   "actions": [
+    {
+     "part": "PumpFilter",
+     "to": 0.08
+    }
+   ],
+   "highlight": "BlueDrainGuide",
+   "effects": [
+    {
+     "water": "flow"
+    },
+    {
+     "level": 0.45
+    },
+    {
+     "water": "trickle"
+    },
+    {
+     "level": 0.5
+    },
+    {
+     "water": "stop"
+    }
+   ],
+   "min_seconds": 6
+  },
+  {
+   "caption": "Unscrew and remove the filter",
+   "narration": "Only after the water stops, unscrew the filter anticlockwise and pull it out.",
+   "shot": {
+    "target": "PumpFilter",
+    "distance": 0.6,
+    "azimuth": -25,
+    "elevation": 25
+   },
+   "actions": [
+    {
+     "part": "PumpFilter",
+     "to": 1
+    }
+   ],
+   "highlight": "PumpFilter",
+   "effects": [],
+   "min_seconds": 6
+  },
+  {
+   "caption": "Remove lint and loose objects",
+   "narration": "Remove lint and loose objects from the filter basket.",
+   "shot": {
+    "target": "PumpFilter",
+    "distance": 0.5,
+    "azimuth": -40,
+    "elevation": 35
+   },
+   "actions": [],
+   "highlight": "PumpFilter",
+   "effects": [
+    {
+     "debris": "remove"
+    }
+   ],
+   "min_seconds": 5
+  },
+  {
+   "caption": "Refit clockwise and close up",
+   "narration": "Refit the filter and tighten clockwise until secure. Fold the guide up, close the hatch, and empty the container.",
+   "shot": {
+    "target": "FilterHatch",
+    "distance": 0.8,
+    "azimuth": -10,
+    "elevation": 20
+   },
+   "actions": [
+    {
+     "part": "PumpFilter",
+     "to": 0
+    },
+    {
+     "part": "BlueDrainGuide",
+     "to": 0
+    },
+    {
+     "part": "FilterHatch",
+     "to": 0
+    }
+   ],
+   "highlight": null,
+   "effects": [
+    {
+     "container": "out"
+    }
+   ],
+   "min_seconds": 6
+  },
+  {
+   "caption": "Filter cleaned and hatch closed",
+   "narration": "The filter is clean and everything is back in place.",
+   "shot": {
+    "target": "Machine",
+    "distance": 1.8,
+    "azimuth": 0,
+    "elevation": 10
+   },
+   "actions": [],
+   "highlight": null,
+   "effects": [],
+   "min_seconds": 3
+  }
+ ]
+}

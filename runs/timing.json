@@ -1,0 +1,68 @@
+{
+ "fps": 24,
+ "title_seconds": 3.0,
+ "gap": 0.5,
+ "total": 62.969,
+ "steps": [
+  {
+   "start": 3.0,
+   "length": 4.24,
+   "audio": "runs/audio/step_01.aiff",
+   "audio_seconds": 3.239637
+  },
+  {
+   "start": 7.24,
+   "length": 8.793,
+   "audio": "runs/audio/step_02.aiff",
+   "audio_seconds": 7.793152
+  },
+  {
+   "start": 16.033,
+   "length": 4.093,
+   "audio": "runs/audio/step_03.aiff",
+   "audio_seconds": 3.093152
+  },
+  {
+   "start": 20.126,
+   "length": 5.0,
+   "audio": "runs/audio/step_04.aiff",
+   "audio_seconds": 3.753968
+  },
+  {
+   "start": 25.126,
+   "length": 8.407,
+   "audio": "runs/audio/step_05.aiff",
+   "audio_seconds": 7.407166
+  },
+  {
+   "start": 33.533,
+   "length": 5.832,
+   "audio": "runs/audio/step_06.aiff",
+   "audio_seconds": 4.83161
+  },
+  {
+   "start": 39.365,
+   "length": 8.774,
+   "audio": "runs/audio/step_07.aiff",
+   "audio_seconds": 7.774331
+  },
+  {
+   "start": 48.139,
+   "length": 6.0,
+   "audio": "runs/audio/step_08.aiff",
+   "audio_seconds": 3.875782
+  },
+  {
+   "start": 54.139,
+   "length": 4.322,
+   "audio": "runs/audio/step_09.aiff",
+   "audio_seconds": 3.321905
+  },
+  {
+   "start": 58.461,
+   "length": 4.508,
+   "audio": "runs/audio/step_10.aiff",
+   "audio_seconds": 3.508299
+  }
+ ]
+}

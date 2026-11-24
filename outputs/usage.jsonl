@@ -1,0 +1,22 @@
+{"stage": "smoke", "provider": "Azure", "seconds": 1.7, "prompt_tokens": 15, "completion_tokens": 5, "reasoning_tokens": 0, "cost": 0.0004}
+{"stage": "model v1", "provider": "Azure", "seconds": 149.5, "prompt_tokens": 3361, "completion_tokens": 8809, "reasoning_tokens": 1034, "cost": 0.482455}
+{"stage": "model v2", "provider": "Azure", "seconds": 177.7, "prompt_tokens": 16774, "completion_tokens": 11226, "reasoning_tokens": 1034, "cost": 0.7709675}
+{"stage": "model v3", "provider": "Azure", "seconds": 191.1, "prompt_tokens": 20703, "completion_tokens": 12700, "reasoning_tokens": 1371, "cost": 0.89378}
+{"stage": "procedure", "provider": "Azure", "seconds": 24.8, "prompt_tokens": 9901, "completion_tokens": 1463, "reasoning_tokens": 258, "cost": 0.196905}
+{"stage": "unreal build v1", "provider": "Azure", "seconds": 478.5, "prompt_tokens": 3383, "completion_tokens": 21663, "reasoning_tokens": 9286, "cost": 1.12543}
+{"stage": "unreal fix v1", "provider": "Azure", "seconds": 182.7, "prompt_tokens": 16851, "completion_tokens": 12948, "reasoning_tokens": 491, "cost": 0.85803}
+{"stage": "unreal fix v2", "provider": "Azure", "seconds": 221.6, "prompt_tokens": 17625, "completion_tokens": 14272, "reasoning_tokens": 634, "cost": 0.933905}
+{"stage": "unreal fix v3", "provider": "Azure", "seconds": 227.4, "prompt_tokens": 18544, "completion_tokens": 14418, "reasoning_tokens": 411, "cost": 0.9526925}
+{"stage": "unreal fix v4", "provider": "Azure", "seconds": 223.7, "prompt_tokens": 19014, "completion_tokens": 14683, "reasoning_tokens": 371, "cost": 0.9718175}
+{"stage": "unreal fix v5", "provider": "Azure", "seconds": 232.9, "prompt_tokens": 19505, "completion_tokens": 15338, "reasoning_tokens": 581, "cost": 1.010705}
+{"stage": "unreal fix v6", "provider": "Azure", "seconds": 239.9, "prompt_tokens": 20820, "completion_tokens": 15200, "reasoning_tokens": 516, "cost": 1.0202425}
+{"stage": "unreal polish v7", "provider": "Azure", "seconds": 240.4, "prompt_tokens": 21499, "completion_tokens": 18705, "reasoning_tokens": 1552, "cost": 1.20398}
+{"stage": "unreal fix v8", "provider": "Azure", "seconds": 182.2, "prompt_tokens": 23755, "completion_tokens": 17066, "reasoning_tokens": 238, "cost": 1.15023}
+{"stage": "env v1", "provider": "Azure", "seconds": 209.6, "prompt_tokens": 2228, "completion_tokens": 12204, "reasoning_tokens": 3022, "cost": 0.6380425}
+{"stage": "env v2", "provider": "Azure", "seconds": 562.9, "prompt_tokens": 12158, "completion_tokens": 15612, "reasoning_tokens": 2287, "cost": 0.9126265}
+{"stage": "env v3", "provider": "Azure", "seconds": 213.9, "prompt_tokens": 16079, "completion_tokens": 15565, "reasoning_tokens": 2070, "cost": 0.959289}
+{"stage": "env v4", "provider": "Azure", "seconds": 651.1, "prompt_tokens": 16246, "completion_tokens": 16085, "reasoning_tokens": 1951, "cost": 0.9873765}
+{"stage": "env v5", "provider": "Azure", "seconds": 159.3, "prompt_tokens": 17234, "completion_tokens": 14093, "reasoning_tokens": 516, "cost": 0.9001265}
+{"stage": "env v6", "provider": "Azure", "seconds": 215.0, "prompt_tokens": 16724, "completion_tokens": 16511, "reasoning_tokens": 2070, "cost": 1.0146515}
+{"stage": "env v7", "provider": "Azure", "seconds": 178.6, "prompt_tokens": 17583, "completion_tokens": 15162, "reasoning_tokens": 1034, "cost": 0.957939}
+{"stage": "procedure", "provider": "Azure", "seconds": 19.4, "prompt_tokens": 10299, "completion_tokens": 1616, "reasoning_tokens": 118, "cost": 0.20953}

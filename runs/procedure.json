@@ -1,0 +1,170 @@
+{
+ "title": "How to clean the drain pump filter",
+ "subtitle": "Electrolux PerfectCare 700, 9 kg — EW7F7649U2",
+ "steps": [
+  {
+   "caption": "Clean the drain pump filter",
+   "narration": "The drain pump filter is behind the bottom-right round hatch.",
+   "shot": {
+    "target": "Machine",
+    "distance": 1.8,
+    "azimuth": 0,
+    "elevation": 10
+   },
+   "actions": [],
+   "highlight": null,
+   "min_seconds": 4
+  },
+  {
+   "caption": "Unplug and prepare for water",
+   "narration": "Switch off, unplug, and let any hot water cool before opening. Have a towel and shallow container ready: water may run out.",
+   "shot": {
+    "target": "Machine",
+    "distance": 1.8,
+    "azimuth": 0,
+    "elevation": 10
+   },
+   "actions": [],
+   "highlight": null,
+   "min_seconds": 6
+  },
+  {
+   "caption": "Open the round hatch",
+   "narration": "Open the bottom-right hatch to reach the white filter cap.",
+   "shot": {
+    "target": "FilterHatch",
+    "distance": 0.65,
+    "azimuth": 5,
+    "elevation": 15
+   },
+   "actions": [
+    {
+     "part": "FilterHatch",
+     "to": 1
+    }
+   ],
+   "highlight": "FilterHatch",
+   "min_seconds": 4
+  },
+  {
+   "caption": "Lower the blue drain guide",
+   "narration": "Lower the blue guide, with the container beneath and towel underneath.",
+   "shot": {
+    "target": "BlueDrainGuide",
+    "distance": 0.5,
+    "azimuth": 0,
+    "elevation": 20
+   },
+   "actions": [
+    {
+     "part": "BlueDrainGuide",
+     "to": 1
+    }
+   ],
+   "highlight": "BlueDrainGuide",
+   "min_seconds": 5
+  },
+  {
+   "caption": "Loosen slowly and drain",
+   "narration": "Turn the filter grip slightly anticlockwise, letting water drain before removal. Tighten it again if you need to empty the container.",
+   "shot": {
+    "target": "PumpFilter",
+    "distance": 0.5,
+    "azimuth": 0,
+    "elevation": 15
+   },
+   "actions": [
+    {
+     "part": "PumpFilter",
+     "to": 0.08
+    }
+   ],
+   "highlight": "Filter vertical turning grip",
+   "min_seconds": 6
+  },
+  {
+   "caption": "Unscrew and remove the filter",
+   "narration": "When water stops flowing, continue turning anticlockwise and pull the filter out.",
+   "shot": {
+    "target": "PumpFilter",
+    "distance": 0.6,
+    "azimuth": -20,
+    "elevation": 20
+   },
+   "actions": [
+    {
+     "part": "PumpFilter",
+     "to": 1
+    }
+   ],
+   "highlight": "PumpFilter",
+   "min_seconds": 5
+  },
+  {
+   "caption": "Remove debris and rinse",
+   "narration": "Remove lint and loose objects, then rinse the filter under running water. Wipe the rubber sealing ring and remove visible debris from the opening.",
+   "shot": {
+    "target": "PumpFilter",
+    "distance": 0.5,
+    "azimuth": -35,
+    "elevation": 25
+   },
+   "actions": [],
+   "highlight": "PumpFilter",
+   "min_seconds": 6
+  },
+  {
+   "caption": "Refit and tighten clockwise",
+   "narration": "Put the filter back and turn clockwise until firmly seated by hand.",
+   "shot": {
+    "target": "PumpFilter",
+    "distance": 0.5,
+    "azimuth": 0,
+    "elevation": 15
+   },
+   "actions": [
+    {
+     "part": "PumpFilter",
+     "to": 0
+    }
+   ],
+   "highlight": "PumpFilter",
+   "min_seconds": 6
+  },
+  {
+   "caption": "Fold up and close",
+   "narration": "Fold the blue guide back up, then close the round hatch.",
+   "shot": {
+    "target": "FilterHatch",
+    "distance": 0.65,
+    "azimuth": 5,
+    "elevation": 15
+   },
+   "actions": [
+    {
+     "part": "BlueDrainGuide",
+     "to": 0
+    },
+    {
+     "part": "FilterHatch",
+     "to": 0
+    }
+   ],
+   "highlight": null,
+   "min_seconds": 4
+  },
+  {
+   "caption": "Cleaning complete",
+   "narration": "Wipe up spills, and check for leaks during the next wash.",
+   "shot": {
+    "target": "Machine",
+    "distance": 1.8,
+    "azimuth": 0,
+    "elevation": 10
+   },
+   "actions": [],
+   "highlight": null,
+   "min_seconds": 3
+  }
+ ]
+}

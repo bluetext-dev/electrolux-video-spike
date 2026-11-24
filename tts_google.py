@@ -79,7 +79,7 @@ def narrate_and_time(voice, proc_name, timing_name, audio_name):
         path = os.path.join(d, f"step_{i:02d}.wav"); synth(s["narration"], voice, path)
         dur = seconds(path)
         length = round(max(float(s.get("min_seconds", 3)), dur + 1.0), 3)
-        steps.append({"start": round(t, 3), "length": length, "audio": path, "audio_seconds": dur}); t += length
+        steps.append({"start": round(t, 3), "length": length, "audio": os.path.relpath(path, HERE), "audio_seconds": dur}); t += length
         print(f"  step {i}: {dur:.2f} s narration, {length:.2f} s step")
     json.dump({"fps": 24, "title_seconds": 3.0, "gap": 0.5, "total": round(t, 3), "steps": steps}, open(os.path.join(HERE, "runs", timing_name), "w"), indent=1)
     print(f"  total {t:.1f} s")

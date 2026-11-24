@@ -1,0 +1,1582 @@
+{
+ "bounds": [
+  [
+   -0.2985000014305115,
+   -0.3402999937534332,
+   0.0
+  ],
+  [
+   0.2985000014305115,
+   0.3179999887943268,
+   0.847000002861023
+  ]
+ ],
+ "parts": {
+  "Adjustable rubber foot": {
+   "centre": [
+    -0.238,
+    -0.245,
+    0.009
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Adjustable rubber foot.001": {
+   "centre": [
+    -0.238,
+    0.245,
+    0.009
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Adjustable rubber foot.002": {
+   "centre": [
+    0.238,
+    -0.245,
+    0.009
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Adjustable rubber foot.003": {
+   "centre": [
+    0.238,
+    0.245,
+    0.009
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Blue guide raised side lip": {
+   "centre": [
+    0.129,
+    -0.306,
+    0.033
+   ],
+   "parent": "BlueDrainGuide",
+   "motion": null
+  },
+  "Blue guide raised side lip.001": {
+   "centre": [
+    0.187,
+    -0.306,
+    0.033
+   ],
+   "parent": "BlueDrainGuide",
+   "motion": null
+  },
+  "BlueDrainGuide": {
+   "centre": [
+    0.158,
+    -0.304,
+    0.029
+   ],
+   "parent": null,
+   "motion": "{\"rotate\": {\"axis\": \"X\", \"degrees\": 88}}"
+  },
+  "Body": {
+   "centre": [
+    0.0,
+    0.0,
+    0.424
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Brand emblem bar": {
+   "centre": [
+    -0.181,
+    -0.572,
+    0.809
+   ],
+   "parent": "DetergentDrawer",
+   "motion": null
+  },
+  "Brand emblem circle": {
+   "centre": [
+    -0.181,
+    -0.572,
+    0.809
+   ],
+   "parent": "DetergentDrawer",
+   "motion": null
+  },
+  "Brand emblem square": {
+   "centre": [
+    -0.181,
+    -0.571,
+    0.809
+   ],
+   "parent": "DetergentDrawer",
+   "motion": null
+  },
+  "Cabinet rear": {
+   "centre": [
+    0.0,
+    0.311,
+    0.422
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "ControlPanel": {
+   "centre": [
+    0.112,
+    -0.317,
+    0.792
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "DetergentDrawer": {
+   "centre": [
+    -0.18,
+    -0.23,
+    0.747
+   ],
+   "parent": null,
+   "motion": "{\"translate\": [0, -0.25, 0]}"
+  },
+  "Display": {
+   "centre": [
+    0.158,
+    -0.321,
+    0.802
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Door": {
+   "centre": [
+    -0.232,
+    -0.314,
+    0.456
+   ],
+   "parent": null,
+   "motion": "{\"rotate\": {\"axis\": \"Z\", \"degrees\": -105}}"
+  },
+  "Door handle finger pocket": {
+   "centre": [
+    -0.341,
+    -0.753,
+    0.479
+   ],
+   "parent": "Door",
+   "motion": null
+  },
+  "Door latch receiver": {
+   "centre": [
+    0.224,
+    -0.311,
+    0.456
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Door latch tongue": {
+   "centre": [
+    -0.328,
+    -0.76,
+    0.456
+   ],
+   "parent": "Door",
+   "motion": null
+  },
+  "Door satin ribbed annulus": {
+   "centre": [
+    -0.31,
+    -0.533,
+    0.456
+   ],
+   "parent": "Door",
+   "motion": null
+  },
+  "DoorGlass": {
+   "centre": [
+    -0.27,
+    -0.544,
+    0.456
+   ],
+   "parent": "Door",
+   "motion": null
+  },
+  "DoorHandle": {
+   "centre": [
+    -0.349,
+    -0.766,
+    0.479
+   ],
+   "parent": "Door",
+   "motion": null
+  },
+  "Drain flap fixed pivot support": {
+   "centre": [
+    0.127,
+    -0.299,
+    0.03
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Drain flap fixed pivot support.001": {
+   "centre": [
+    0.189,
+    -0.299,
+    0.03
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Drawer housing floor": {
+   "centre": [
+    -0.18,
+    -0.133,
+    0.739
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Drawer housing jamb": {
+   "centre": [
+    -0.289,
+    -0.133,
+    0.785
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Drawer housing jamb.001": {
+   "centre": [
+    -0.07,
+    -0.133,
+    0.785
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Drawer housing rear": {
+   "centre": [
+    -0.18,
+    0.047,
+    0.785
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Drawer housing roof": {
+   "centre": [
+    -0.18,
+    -0.133,
+    0.831
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Drawer product line": {
+   "centre": [
+    -0.18,
+    -0.571,
+    0.764
+   ],
+   "parent": "DetergentDrawer",
+   "motion": null
+  },
+  "Drawer pull lip": {
+   "centre": [
+    -0.18,
+    -0.572,
+    0.751
+   ],
+   "parent": "DetergentDrawer",
+   "motion": null
+  },
+  "Drawer tray end": {
+   "centre": [
+    -0.18,
+    -0.546,
+    0.775
+   ],
+   "parent": "DetergentDrawer",
+   "motion": null
+  },
+  "Drawer tray end.001": {
+   "centre": [
+    -0.18,
+    -0.234,
+    0.775
+   ],
+   "parent": "DetergentDrawer",
+   "motion": null
+  },
+  "Drawer tray floor": {
+   "centre": [
+    -0.18,
+    -0.39,
+    0.746
+   ],
+   "parent": "DetergentDrawer",
+   "motion": null
+  },
+  "Drawer tray side": {
+   "centre": [
+    -0.278,
+    -0.39,
+    0.775
+   ],
+   "parent": "DetergentDrawer",
+   "motion": null
+  },
+  "Drawer tray side.001": {
+   "centre": [
+    -0.082,
+    -0.39,
+    0.775
+   ],
+   "parent": "DetergentDrawer",
+   "motion": null
+  },
+  "Drawer underside finger recess": {
+   "centre": [
+    -0.18,
+    -0.563,
+    0.748
+   ],
+   "parent": "DetergentDrawer",
+   "motion": null
+  },
+  "Drum back pressed concentric relief": {
+   "centre": [
+    0.0,
+    0.214,
+    0.456
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Drum central hub": {
+   "centre": [
+    0.0,
+    0.207,
+    0.456
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Drum front rolled rim": {
+   "centre": [
+    0.0,
+    -0.25,
+    0.456
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Drum lifting paddle 1": {
+   "centre": [
+    0.0,
+    -0.022,
+    0.276
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Drum lifting paddle 2": {
+   "centre": [
+    0.156,
+    -0.022,
+    0.546
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Drum lifting paddle 3": {
+   "centre": [
+    -0.156,
+    -0.022,
+    0.546
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Drum perforation pattern": {
+   "centre": [
+    0.0,
+    -0.014,
+    0.456
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Drum rear plate": {
+   "centre": [
+    0.0,
+    0.23,
+    0.456
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Electrolux wordmark": {
+   "centre": [
+    -0.181,
+    -0.571,
+    0.789
+   ],
+   "parent": "DetergentDrawer",
+   "motion": null
+  },
+  "Electronics enclosure": {
+   "centre": [
+    0.115,
+    -0.281,
+    0.79
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Emergency release tab": {
+   "centre": [
+    0.209,
+    -0.27,
+    0.083
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Enamel aperture shoulder": {
+   "centre": [
+    0.0,
+    -0.31,
+    0.456
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Filter basket hoop 0": {
+   "centre": [
+    0.158,
+    -0.395,
+    0.08
+   ],
+   "parent": "PumpFilter",
+   "motion": null
+  },
+  "Filter basket hoop 1": {
+   "centre": [
+    0.158,
+    -0.378,
+    0.08
+   ],
+   "parent": "PumpFilter",
+   "motion": null
+  },
+  "Filter basket hoop 2": {
+   "centre": [
+    0.158,
+    -0.361,
+    0.08
+   ],
+   "parent": "PumpFilter",
+   "motion": null
+  },
+  "Filter basket hoop 3": {
+   "centre": [
+    0.158,
+    -0.344,
+    0.08
+   ],
+   "parent": "PumpFilter",
+   "motion": null
+  },
+  "Filter basket hoop 4": {
+   "centre": [
+    0.158,
+    -0.327,
+    0.08
+   ],
+   "parent": "PumpFilter",
+   "motion": null
+  },
+  "Filter basket rail 00": {
+   "centre": [
+    0.185,
+    -0.36,
+    0.08
+   ],
+   "parent": "PumpFilter",
+   "motion": null
+  },
+  "Filter basket rail 01": {
+   "centre": [
+    0.18,
+    -0.36,
+    0.096
+   ],
+   "parent": "PumpFilter",
+   "motion": null
+  },
+  "Filter basket rail 02": {
+   "centre": [
+    0.166,
+    -0.36,
+    0.106
+   ],
+   "parent": "PumpFilter",
+   "motion": null
+  },
+  "Filter basket rail 03": {
+   "centre": [
+    0.15,
+    -0.36,
+    0.106
+   ],
+   "parent": "PumpFilter",
+   "motion": null
+  },
+  "Filter basket rail 04": {
+   "centre": [
+    0.136,
+    -0.36,
+    0.096
+   ],
+   "parent": "PumpFilter",
+   "motion": null
+  },
+  "Filter basket rail 05": {
+   "centre": [
+    0.131,
+    -0.36,
+    0.08
+   ],
+   "parent": "PumpFilter",
+   "motion": null
+  },
+  "Filter basket rail 06": {
+   "centre": [
+    0.136,
+    -0.36,
+    0.064
+   ],
+   "parent": "PumpFilter",
+   "motion": null
+  },
+  "Filter basket rail 07": {
+   "centre": [
+    0.15,
+    -0.36,
+    0.054
+   ],
+   "parent": "PumpFilter",
+   "motion": null
+  },
+  "Filter basket rail 08": {
+   "centre": [
+    0.166,
+    -0.36,
+    0.054
+   ],
+   "parent": "PumpFilter",
+   "motion": null
+  },
+  "Filter basket rail 09": {
+   "centre": [
+    0.18,
+    -0.36,
+    0.064
+   ],
+   "parent": "PumpFilter",
+   "motion": null
+  },
+  "Filter basket rear end": {
+   "centre": [
+    0.158,
+    -0.322,
+    0.08
+   ],
+   "parent": "PumpFilter",
+   "motion": null
+  },
+  "Filter cap raised perimeter": {
+   "centre": [
+    0.158,
+    -0.435,
+    0.08
+   ],
+   "parent": "PumpFilter",
+   "motion": null
+  },
+  "Filter continuous helical thread": {
+   "centre": [
+    0.191,
+    -0.42,
+    0.08
+   ],
+   "parent": "PumpFilter",
+   "motion": null
+  },
+  "Filter grip notch": {
+   "centre": [
+    0.158,
+    -0.452,
+    0.062
+   ],
+   "parent": "PumpFilter",
+   "motion": null
+  },
+  "Filter grip notch.001": {
+   "centre": [
+    0.158,
+    -0.452,
+    0.098
+   ],
+   "parent": "PumpFilter",
+   "motion": null
+  },
+  "Filter rubber sealing ring": {
+   "centre": [
+    0.158,
+    -0.424,
+    0.08
+   ],
+   "parent": "PumpFilter",
+   "motion": null
+  },
+  "Filter threaded neck": {
+   "centre": [
+    0.158,
+    -0.41,
+    0.08
+   ],
+   "parent": "PumpFilter",
+   "motion": null
+  },
+  "Filter vertical turning grip": {
+   "centre": [
+    0.158,
+    -0.443,
+    0.08
+   ],
+   "parent": "PumpFilter",
+   "motion": null
+  },
+  "FilterHatch": {
+   "centre": [
+    0.231,
+    -0.311,
+    0.074
+   ],
+   "parent": null,
+   "motion": "{\"rotate\": {\"axis\": \"Z\", \"degrees\": 105}}"
+  },
+  "Fine radial door moulding": {
+   "centre": [
+    -0.314,
+    -0.532,
+    0.456
+   ],
+   "parent": "Door",
+   "motion": null
+  },
+  "Fixed loading door hinge": {
+   "centre": [
+    -0.232,
+    -0.304,
+    0.41
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Fixed loading door hinge.001": {
+   "centre": [
+    -0.232,
+    -0.304,
+    0.502
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Fixed service hatch hinge pin": {
+   "centre": [
+    0.231,
+    -0.311,
+    0.074
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Glass perimeter seal": {
+   "centre": [
+    -0.296,
+    -0.537,
+    0.456
+   ],
+   "parent": "Door",
+   "motion": null
+  },
+  "Green dosing insert": {
+   "centre": [
+    -0.219,
+    -0.293,
+    0.782
+   ],
+   "parent": "DetergentDrawer",
+   "motion": null
+  },
+  "Green insert dosing well": {
+   "centre": [
+    -0.219,
+    -0.293,
+    0.787
+   ],
+   "parent": "DetergentDrawer",
+   "motion": null
+  },
+  "Hatch curved offset hinge web": {
+   "centre": [
+    0.222,
+    -0.324,
+    0.074
+   ],
+   "parent": "FilterHatch",
+   "motion": null
+  },
+  "Hatch hinge reinforcing rib 0": {
+   "centre": [
+    0.235,
+    -0.332,
+    0.06
+   ],
+   "parent": "FilterHatch",
+   "motion": null
+  },
+  "Hatch hinge reinforcing rib 1": {
+   "centre": [
+    0.235,
+    -0.332,
+    0.067
+   ],
+   "parent": "FilterHatch",
+   "motion": null
+  },
+  "Hatch hinge reinforcing rib 2": {
+   "centre": [
+    0.235,
+    -0.332,
+    0.074
+   ],
+   "parent": "FilterHatch",
+   "motion": null
+  },
+  "Hatch hinge reinforcing rib 3": {
+   "centre": [
+    0.235,
+    -0.332,
+    0.081
+   ],
+   "parent": "FilterHatch",
+   "motion": null
+  },
+  "Hatch hinge reinforcing rib 4": {
+   "centre": [
+    0.235,
+    -0.332,
+    0.088
+   ],
+   "parent": "FilterHatch",
+   "motion": null
+  },
+  "Hatch inner reinforcing rim": {
+   "centre": [
+    0.246,
+    -0.373,
+    0.074
+   ],
+   "parent": "FilterHatch",
+   "motion": null
+  },
+  "Hatch latch clip": {
+   "centre": [
+    0.256,
+    -0.427,
+    0.082
+   ],
+   "parent": "FilterHatch",
+   "motion": null
+  },
+  "Hatch perimeter seam": {
+   "centre": [
+    0.167,
+    -0.313,
+    0.074
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Internal base": {
+   "centre": [
+    0.0,
+    0.004,
+    0.021
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Left cabinet side": {
+   "centre": [
+    -0.292,
+    0.008,
+    0.426
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Liquid detergent insert": {
+   "centre": [
+    -0.219,
+    -0.393,
+    0.771
+   ],
+   "parent": "DetergentDrawer",
+   "motion": null
+  },
+  "Lower front return": {
+   "centre": [
+    0.0,
+    -0.313,
+    0.02
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Main wash divider": {
+   "centre": [
+    -0.159,
+    -0.389,
+    0.77
+   ],
+   "parent": "DetergentDrawer",
+   "motion": null
+  },
+  "Moving loading door hinge leaf": {
+   "centre": [
+    -0.235,
+    -0.324,
+    0.41
+   ],
+   "parent": "Door",
+   "motion": null
+  },
+  "Moving loading door hinge leaf.001": {
+   "centre": [
+    -0.235,
+    -0.324,
+    0.502
+   ],
+   "parent": "Door",
+   "motion": null
+  },
+  "Power key": {
+   "centre": [
+    0.104,
+    -0.322,
+    0.738
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Power key caption": {
+   "centre": [
+    0.104,
+    -0.324,
+    0.726
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Prewash compartment wall": {
+   "centre": [
+    -0.119,
+    -0.305,
+    0.77
+   ],
+   "parent": "DetergentDrawer",
+   "motion": null
+  },
+  "ProgramKnob": {
+   "centre": [
+    -0.004,
+    -0.329,
+    0.8
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Programme left 00": {
+   "centre": [
+    -0.065,
+    -0.321,
+    0.828
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Programme left 01": {
+   "centre": [
+    -0.065,
+    -0.321,
+    0.816
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Programme left 02": {
+   "centre": [
+    -0.065,
+    -0.321,
+    0.804
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Programme left 03": {
+   "centre": [
+    -0.065,
+    -0.321,
+    0.793
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Programme left 04": {
+   "centre": [
+    -0.065,
+    -0.321,
+    0.781
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Programme left 05": {
+   "centre": [
+    -0.065,
+    -0.321,
+    0.769
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Programme right 00": {
+   "centre": [
+    0.083,
+    -0.321,
+    0.828
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Programme right 01": {
+   "centre": [
+    0.083,
+    -0.321,
+    0.816
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Programme right 02": {
+   "centre": [
+    0.083,
+    -0.321,
+    0.804
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Programme right 03": {
+   "centre": [
+    0.083,
+    -0.321,
+    0.793
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Programme right 04": {
+   "centre": [
+    0.083,
+    -0.321,
+    0.781
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Programme right 05": {
+   "centre": [
+    0.083,
+    -0.321,
+    0.769
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Pump housing rear": {
+   "centre": [
+    0.158,
+    -0.107,
+    0.08
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Pump socket body": {
+   "centre": [
+    0.158,
+    -0.19,
+    0.08
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Pump socket dark inner bore": {
+   "centre": [
+    0.158,
+    -0.187,
+    0.08
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Pump socket flange": {
+   "centre": [
+    0.158,
+    -0.266,
+    0.08
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "PumpFilter": {
+   "centre": [
+    0.158,
+    -0.416,
+    0.08
+   ],
+   "parent": null,
+   "motion": "{\"rotate\": {\"axis\": \"Y\", \"degrees\": -720}, \"translate\": [0, -0.16, 0]}"
+  },
+  "Rear cover fastener": {
+   "centre": [
+    -0.211,
+    0.318,
+    0.119
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Rear cover fastener.001": {
+   "centre": [
+    -0.211,
+    0.318,
+    0.708
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Rear cover fastener.002": {
+   "centre": [
+    0.211,
+    0.318,
+    0.119
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Rear cover fastener.003": {
+   "centre": [
+    0.211,
+    0.318,
+    0.708
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Rear service cover": {
+   "centre": [
+    0.0,
+    0.317,
+    0.414
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Right cabinet side": {
+   "centre": [
+    0.292,
+    0.008,
+    0.426
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Rubber door bellows": {
+   "centre": [
+    0.0,
+    -0.287,
+    0.456
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Selector index": {
+   "centre": [
+    -0.004,
+    -0.335,
+    0.822
+   ],
+   "parent": "ProgramKnob",
+   "motion": null
+  },
+  "Selector silver bezel": {
+   "centre": [
+    -0.004,
+    -0.323,
+    0.8
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Service hinge mounting boss": {
+   "centre": [
+    0.218,
+    -0.282,
+    0.049
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Service hinge mounting boss.001": {
+   "centre": [
+    0.218,
+    -0.282,
+    0.105
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Service hinge screw": {
+   "centre": [
+    0.218,
+    -0.294,
+    0.049
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Service hinge screw.001": {
+   "centre": [
+    0.218,
+    -0.294,
+    0.105
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Service opening enamel return": {
+   "centre": [
+    0.167,
+    -0.31,
+    0.074
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Service recess back": {
+   "centre": [
+    0.167,
+    -0.229,
+    0.074
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Service recess moulded wall": {
+   "centre": [
+    0.167,
+    -0.268,
+    0.074
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Service screw cross slot": {
+   "centre": [
+    0.218,
+    -0.295,
+    0.049
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Service screw cross slot.001": {
+   "centre": [
+    0.218,
+    -0.295,
+    0.049
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Service screw cross slot.002": {
+   "centre": [
+    0.218,
+    -0.295,
+    0.105
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Service screw cross slot.003": {
+   "centre": [
+    0.218,
+    -0.295,
+    0.105
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Softener compartment wall": {
+   "centre": [
+    -0.218,
+    -0.446,
+    0.77
+   ],
+   "parent": "DetergentDrawer",
+   "motion": null
+  },
+  "Spin speed display": {
+   "centre": [
+    0.101,
+    -0.322,
+    0.785
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Stainless drum barrel": {
+   "centre": [
+    0.0,
+    -0.011,
+    0.456
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Start pause icon": {
+   "centre": [
+    0.261,
+    -0.321,
+    0.798
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Start pause outline end": {
+   "centre": [
+    0.261,
+    -0.321,
+    0.785
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Start pause outline end.001": {
+   "centre": [
+    0.261,
+    -0.321,
+    0.816
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Start pause outline side": {
+   "centre": [
+    0.249,
+    -0.321,
+    0.8
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Start pause outline side.001": {
+   "centre": [
+    0.273,
+    -0.321,
+    0.8
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "SteamCare heading": {
+   "centre": [
+    0.244,
+    -0.321,
+    0.828
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Temperature display": {
+   "centre": [
+    0.101,
+    -0.322,
+    0.805
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Temperature heading": {
+   "centre": [
+    0.098,
+    -0.322,
+    0.823
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Thin glass retaining trim": {
+   "centre": [
+    -0.303,
+    -0.535,
+    0.456
+   ],
+   "parent": "Door",
+   "motion": null
+  },
+  "Time remaining display": {
+   "centre": [
+    0.218,
+    -0.322,
+    0.805
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Top lid": {
+   "centre": [
+    0.0,
+    0.0,
+    0.839
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Top lid seam": {
+   "centre": [
+    0.0,
+    0.0,
+    0.829
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Touch divider Extra Rinse": {
+   "centre": [
+    0.15,
+    -0.321,
+    0.759
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Touch divider Plus Steam": {
+   "centre": [
+    0.212,
+    -0.321,
+    0.759
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Touch divider Pods": {
+   "centre": [
+    0.243,
+    -0.321,
+    0.759
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Touch divider Prewash": {
+   "centre": [
+    0.088,
+    -0.321,
+    0.759
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Touch divider Soft Plus": {
+   "centre": [
+    0.181,
+    -0.321,
+    0.759
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Touch divider Stains": {
+   "centre": [
+    0.119,
+    -0.321,
+    0.759
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Touch indicator Extra Rinse": {
+   "centre": [
+    0.165,
+    -0.321,
+    0.765
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Touch indicator Plus Steam": {
+   "centre": [
+    0.227,
+    -0.321,
+    0.765
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Touch indicator Pods": {
+   "centre": [
+    0.258,
+    -0.321,
+    0.765
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Touch indicator Prewash": {
+   "centre": [
+    0.103,
+    -0.321,
+    0.765
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Touch indicator Soft Plus": {
+   "centre": [
+    0.196,
+    -0.321,
+    0.765
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Touch indicator Stains": {
+   "centre": [
+    0.134,
+    -0.321,
+    0.765
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Touch legend Extra Rinse": {
+   "centre": [
+    0.165,
+    -0.321,
+    0.757
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Touch legend Plus Steam": {
+   "centre": [
+    0.227,
+    -0.321,
+    0.757
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Touch legend Pods": {
+   "centre": [
+    0.258,
+    -0.321,
+    0.757
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Touch legend Prewash": {
+   "centre": [
+    0.103,
+    -0.321,
+    0.757
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Touch legend Soft Plus": {
+   "centre": [
+    0.196,
+    -0.321,
+    0.757
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Touch legend Stains": {
+   "centre": [
+    0.134,
+    -0.321,
+    0.757
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "White fascia lower bridge": {
+   "centre": [
+    0.0,
+    -0.315,
+    0.731
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Wool badge lettering": {
+   "centre": [
+    0.239,
+    -0.319,
+    0.672
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Wool badge symbols": {
+   "centre": [
+    0.239,
+    -0.319,
+    0.683
+   ],
+   "parent": null,
+   "motion": null
+  },
+  "Wool care badge": {
+   "centre": [
+    0.239,
+    -0.319,
+    0.681
+   ],
+   "parent": null,
+   "motion": null
+  }
+ }
+}

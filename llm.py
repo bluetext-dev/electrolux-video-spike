@@ -6,16 +6,17 @@ when the spend recorded there passes BUDGET_USD.
 import base64, json, os, ssl, time, urllib.request, urllib.error
 
 MODEL = os.environ.get("VP_MODEL", "openai/gpt-6-astra")
-BUDGET_USD = float(os.environ.get("VP_BUDGET_USD", "100"))
+BUDGET_USD = float(os.environ.get("VP_BUDGET_USD", "10"))
 HERE = os.path.dirname(os.path.abspath(__file__))
 USAGE = os.path.join(HERE, "runs", "usage.jsonl")
-# The key comes from the macOS keychain item KEYCHAIN_SERVICE (a personal OpenRouter
-# workspace); OPENROUTER_API_KEY in the environment is the organisation's and is not used.
+# The key comes from OPENROUTER_API_KEY, or else from the macOS keychain item KEYCHAIN_SERVICE.
 KEYCHAIN_SERVICE = os.environ.get("VP_KEYCHAIN_SERVICE", "openrouter-personal")
 
 
 def api_key():
     import subprocess
+    if os.environ.get("OPENROUTER_API_KEY"):
+        return os.environ["OPENROUTER_API_KEY"]
     r = subprocess.run(["security", "find-generic-password", "-s", KEYCHAIN_SERVICE, "-w"], capture_output=True, text=True)
     if r.returncode or not r.stdout.strip():
         raise SystemExit(f"no keychain item '{KEYCHAIN_SERVICE}': add it with  security add-generic-password -a $USER -s {KEYCHAIN_SERVICE} -w")

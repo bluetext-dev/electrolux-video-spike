@@ -1,0 +1,28 @@
+{
+ "model": "google/lyria-3-pro-preview",
+ "prompt": "Instrumental background music for a 70-second instructional video about a home appliance (a washing machine), made for a premium Scandinavian appliance brand. Calm, warm and modern: soft felt piano, light plucked strings, gentle pads, a subtle soft pulse. No vocals, no drums that dominate. Structure: a short, elegant rising swell in the first 5 seconds for a logo reveal, then a steady, unobtrusive bed that sits under a spoken voice-over, and a soft resolved ending around 70 seconds. Around 90 BPM, major key, reassuring and clean.",
+ "text": "[[A0]]\n[[B1]]\n[[C2]]\n[[D3]]\n[[E4]]",
+ "usage": {
+  "prompt_tokens": 134,
+  "completion_tokens": 10,
+  "total_tokens": 144,
+  "cost": 0.08,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.08,
+   "upstream_inference_prompt_cost": 0,
+   "upstream_inference_completions_cost": 0.08
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 10
+  }
+ }
+}

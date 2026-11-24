@@ -1,0 +1,1773 @@
+{
+ "Adjustable rubber foot": {
+  "label": "adjustable rubber foot",
+  "motion": null,
+  "location": [
+   -0.23800000548362732,
+   -0.24500000476837158,
+   0.008999999612569809
+  ],
+  "parent": null
+ },
+ "Adjustable rubber foot.001": {
+  "label": "adjustable rubber foot",
+  "motion": null,
+  "location": [
+   -0.23800000548362732,
+   0.24500000476837158,
+   0.008999999612569809
+  ],
+  "parent": null
+ },
+ "Adjustable rubber foot.002": {
+  "label": "adjustable rubber foot",
+  "motion": null,
+  "location": [
+   0.23800000548362732,
+   -0.24500000476837158,
+   0.008999999612569809
+  ],
+  "parent": null
+ },
+ "Adjustable rubber foot.003": {
+  "label": "adjustable rubber foot",
+  "motion": null,
+  "location": [
+   0.23800000548362732,
+   0.24500000476837158,
+   0.008999999612569809
+  ],
+  "parent": null
+ },
+ "Blue guide raised side lip": {
+  "label": "blue guide raised side lip",
+  "motion": null,
+  "location": [
+   0.1290000081062317,
+   -0.30007222294807434,
+   0.031138379126787186
+  ],
+  "parent": "BlueDrainGuide"
+ },
+ "Blue guide raised side lip.001": {
+  "label": "blue guide raised side lip",
+  "motion": null,
+  "location": [
+   0.18700000643730164,
+   -0.30007222294807434,
+   0.031138379126787186
+  ],
+  "parent": "BlueDrainGuide"
+ },
+ "BlueDrainGuide": {
+  "label": "folding blue drain guide",
+  "motion": {
+   "rotate": {
+    "axis": "X",
+    "degrees": 88
+   }
+  },
+  "location": [
+   0.15800000727176666,
+   -0.30399999022483826,
+   0.028999999165534973
+  ],
+  "parent": null
+ },
+ "Body": {
+  "label": "white washing machine cabinet",
+  "motion": null,
+  "location": [
+   0.0,
+   0.0,
+   0.4235000014305115
+  ],
+  "parent": null
+ },
+ "Brand emblem bar": {
+  "label": "brand emblem bar",
+  "motion": null,
+  "location": [
+   -0.1809999942779541,
+   -0.32190001010894775,
+   0.8090000152587891
+  ],
+  "parent": "DetergentDrawer"
+ },
+ "Brand emblem circle": {
+  "label": "brand emblem circle",
+  "motion": null,
+  "location": [
+   -0.1809999942779541,
+   -0.32170000672340393,
+   0.8090000152587891
+  ],
+  "parent": "DetergentDrawer"
+ },
+ "Brand emblem square": {
+  "label": "brand emblem square",
+  "motion": null,
+  "location": [
+   -0.1809999942779541,
+   -0.3212999999523163,
+   0.8090000152587891
+  ],
+  "parent": "DetergentDrawer"
+ },
+ "Cabinet rear": {
+  "label": "cabinet rear",
+  "motion": null,
+  "location": [
+   0.0,
+   0.3109999895095825,
+   0.421999990940094
+  ],
+  "parent": null
+ },
+ "ControlPanel": {
+  "label": "programme and touch control panel",
+  "motion": null,
+  "location": [
+   0.1120000034570694,
+   -0.3174999952316284,
+   0.7919999957084656
+  ],
+  "parent": null
+ },
+ "DetergentDrawer": {
+  "label": "detergent dosing drawer",
+  "motion": {
+   "translate": [
+    0,
+    -0.25,
+    0
+   ]
+  },
+  "location": [
+   -0.18000000715255737,
+   0.019999999552965164,
+   0.746999979019165
+  ],
+  "parent": null
+ },
+ "Display": {
+  "label": "digital wash display",
+  "motion": null,
+  "location": [
+   0.15800000727176666,
+   -0.32100000977516174,
+   0.8019999861717224
+  ],
+  "parent": null
+ },
+ "Door": {
+  "label": "left hinged loading door",
+  "motion": {
+   "rotate": {
+    "axis": "Z",
+    "degrees": -105
+   }
+  },
+  "location": [
+   -0.23199999332427979,
+   -0.3140000104904175,
+   0.4560000002384186
+  ],
+  "parent": null
+ },
+ "Door handle finger pocket": {
+  "label": "door handle finger pocket",
+  "motion": null,
+  "location": [
+   0.2199999988079071,
+   -0.3059999942779541,
+   0.4790000021457672
+  ],
+  "parent": "Door"
+ },
+ "Door latch receiver": {
+  "label": "door latch receiver",
+  "motion": null,
+  "location": [
+   0.2240000069141388,
+   -0.3109999895095825,
+   0.4560000002384186
+  ],
+  "parent": null
+ },
+ "Door latch tongue": {
+  "label": "door latch tongue",
+  "motion": null,
+  "location": [
+   0.2240000069141388,
+   -0.29100000858306885,
+   0.4560000002384186
+  ],
+  "parent": "Door"
+ },
+ "Door satin ribbed annulus": {
+  "label": "door satin ribbed annulus",
+  "motion": null,
+  "location": [
+   0.0,
+   -0.33215001225471497,
+   0.4560000002384186
+  ],
+  "parent": "Door"
+ },
+ "DoorGlass": {
+  "label": "clear recessed door glass",
+  "motion": null,
+  "location": [
+   0.0,
+   -0.2915000021457672,
+   0.4560000002384186
+  ],
+  "parent": "Door"
+ },
+ "DoorHandle": {
+  "label": "doorhandle",
+  "motion": null,
+  "location": [
+   0.23500001430511475,
+   -0.3100000023841858,
+   0.4790000021457672
+  ],
+  "parent": "Door"
+ },
+ "Drain flap fixed pivot support": {
+  "label": "drain flap fixed pivot support",
+  "motion": null,
+  "location": [
+   0.12700000405311584,
+   -0.29899999499320984,
+   0.029999999329447746
+  ],
+  "parent": null
+ },
+ "Drain flap fixed pivot support.001": {
+  "label": "drain flap fixed pivot support",
+  "motion": null,
+  "location": [
+   0.1889999955892563,
+   -0.29899999499320984,
+   0.029999999329447746
+  ],
+  "parent": null
+ },
+ "Drawer housing floor": {
+  "label": "drawer housing floor",
+  "motion": null,
+  "location": [
+   -0.18000000715255737,
+   -0.13300000131130219,
+   0.7390000224113464
+  ],
+  "parent": null
+ },
+ "Drawer housing jamb": {
+  "label": "drawer housing jamb",
+  "motion": null,
+  "location": [
+   -0.289000004529953,
+   -0.13300000131130219,
+   0.7850000262260437
+  ],
+  "parent": null
+ },
+ "Drawer housing jamb.001": {
+  "label": "drawer housing jamb",
+  "motion": null,
+  "location": [
+   -0.07000000029802322,
+   -0.13300000131130219,
+   0.7850000262260437
+  ],
+  "parent": null
+ },
+ "Drawer housing rear": {
+  "label": "drawer housing rear",
+  "motion": null,
+  "location": [
+   -0.18000000715255737,
+   0.04699999839067459,
+   0.7850000262260437
+  ],
+  "parent": null
+ },
+ "Drawer housing roof": {
+  "label": "drawer housing roof",
+  "motion": null,
+  "location": [
+   -0.18000000715255737,
+   -0.13300000131130219,
+   0.8309999704360962
+  ],
+  "parent": null
+ },
+ "Drawer product line": {
+  "label": "drawer product line",
+  "motion": null,
+  "location": [
+   -0.18000000715255737,
+   -0.321399986743927,
+   0.7639999985694885
+  ],
+  "parent": "DetergentDrawer"
+ },
+ "Drawer pull lip": {
+  "label": "drawer pull lip",
+  "motion": null,
+  "location": [
+   -0.18000000715255737,
+   -0.3215000033378601,
+   0.7509999871253967
+  ],
+  "parent": "DetergentDrawer"
+ },
+ "Drawer tray end": {
+  "label": "drawer tray end",
+  "motion": null,
+  "location": [
+   -0.18000000715255737,
+   -0.29600000381469727,
+   0.7749999761581421
+  ],
+  "parent": "DetergentDrawer"
+ },
+ "Drawer tray end.001": {
+  "label": "drawer tray end",
+  "motion": null,
+  "location": [
+   -0.18000000715255737,
+   0.01600000075995922,
+   0.7749999761581421
+  ],
+  "parent": "DetergentDrawer"
+ },
+ "Drawer tray floor": {
+  "label": "drawer tray floor",
+  "motion": null,
+  "location": [
+   -0.18000000715255737,
+   -0.14000000059604645,
+   0.7459999918937683
+  ],
+  "parent": "DetergentDrawer"
+ },
+ "Drawer tray side": {
+  "label": "drawer tray side",
+  "motion": null,
+  "location": [
+   -0.27799999713897705,
+   -0.14000000059604645,
+   0.7749999761581421
+  ],
+  "parent": "DetergentDrawer"
+ },
+ "Drawer tray side.001": {
+  "label": "drawer tray side",
+  "motion": null,
+  "location": [
+   -0.0820000022649765,
+   -0.14000000059604645,
+   0.7749999761581421
+  ],
+  "parent": "DetergentDrawer"
+ },
+ "Drawer underside finger recess": {
+  "label": "drawer underside finger recess",
+  "motion": null,
+  "location": [
+   -0.18000000715255737,
+   -0.31299999356269836,
+   0.7480000257492065
+  ],
+  "parent": "DetergentDrawer"
+ },
+ "Drum back pressed concentric relief": {
+  "label": "drum back pressed concentric relief",
+  "motion": null,
+  "location": [
+   0.0,
+   0.21400000154972076,
+   0.4560000002384186
+  ],
+  "parent": null
+ },
+ "Drum central hub": {
+  "label": "drum central hub",
+  "motion": null,
+  "location": [
+   0.0,
+   0.2070000022649765,
+   0.4560000002384186
+  ],
+  "parent": null
+ },
+ "Drum front rolled rim": {
+  "label": "drum front rolled rim",
+  "motion": null,
+  "location": [
+   0.0,
+   -0.25,
+   0.4560000002384186
+  ],
+  "parent": null
+ },
+ "Drum lifting paddle 1": {
+  "label": "drum lifting paddle 1",
+  "motion": null,
+  "location": [
+   1.102182101152202e-17,
+   -0.02199999988079071,
+   0.2759999930858612
+  ],
+  "parent": null
+ },
+ "Drum lifting paddle 2": {
+  "label": "drum lifting paddle 2",
+  "motion": null,
+  "location": [
+   0.15588457882404327,
+   -0.02199999988079071,
+   0.5460000038146973
+  ],
+  "parent": null
+ },
+ "Drum lifting paddle 3": {
+  "label": "drum lifting paddle 3",
+  "motion": null,
+  "location": [
+   -0.15588457882404327,
+   -0.02199999988079071,
+   0.5460000038146973
+  ],
+  "parent": null
+ },
+ "Drum perforation pattern": {
+  "label": "drum perforation pattern",
+  "motion": null,
+  "location": [
+   0.0,
+   -0.014141261577606201,
+   0.45600003004074097
+  ],
+  "parent": null
+ },
+ "Drum rear plate": {
+  "label": "drum rear plate",
+  "motion": null,
+  "location": [
+   0.0,
+   0.23000000417232513,
+   0.4560000002384186
+  ],
+  "parent": null
+ },
+ "Electrolux wordmark": {
+  "label": "electrolux wordmark",
+  "motion": null,
+  "location": [
+   -0.1809999942779541,
+   -0.321399986743927,
+   0.7889999747276306
+  ],
+  "parent": "DetergentDrawer"
+ },
+ "Electronics enclosure": {
+  "label": "electronics enclosure",
+  "motion": null,
+  "location": [
+   0.11500000208616257,
+   -0.2809999883174896,
+   0.7900000214576721
+  ],
+  "parent": null
+ },
+ "Emergency release tab": {
+  "label": "emergency release tab",
+  "motion": null,
+  "location": [
+   0.20900000631809235,
+   -0.27000001072883606,
+   0.08299999684095383
+  ],
+  "parent": null
+ },
+ "Enamel aperture shoulder": {
+  "label": "enamel aperture shoulder",
+  "motion": null,
+  "location": [
+   0.0,
+   -0.3100000023841858,
+   0.4560000002384186
+  ],
+  "parent": null
+ },
+ "Filter basket hoop 0": {
+  "label": "filter basket hoop 0",
+  "motion": null,
+  "location": [
+   0.15800000727176666,
+   -0.2345999926328659,
+   0.07999999821186066
+  ],
+  "parent": "PumpFilter"
+ },
+ "Filter basket hoop 1": {
+  "label": "filter basket hoop 1",
+  "motion": null,
+  "location": [
+   0.15800000727176666,
+   -0.2176000028848648,
+   0.07999999821186066
+  ],
+  "parent": "PumpFilter"
+ },
+ "Filter basket hoop 2": {
+  "label": "filter basket hoop 2",
+  "motion": null,
+  "location": [
+   0.15800000727176666,
+   -0.20059999823570251,
+   0.07999999821186066
+  ],
+  "parent": "PumpFilter"
+ },
+ "Filter basket hoop 3": {
+  "label": "filter basket hoop 3",
+  "motion": null,
+  "location": [
+   0.15800000727176666,
+   -0.18359999358654022,
+   0.07999999821186066
+  ],
+  "parent": "PumpFilter"
+ },
+ "Filter basket hoop 4": {
+  "label": "filter basket hoop 4",
+  "motion": null,
+  "location": [
+   0.15800000727176666,
+   -0.16660000383853912,
+   0.07999999821186066
+  ],
+  "parent": "PumpFilter"
+ },
+ "Filter basket rail 00": {
+  "label": "filter basket rail 00",
+  "motion": null,
+  "location": [
+   0.18529999256134033,
+   -0.20000000298023224,
+   0.07999999821186066
+  ],
+  "parent": "PumpFilter"
+ },
+ "Filter basket rail 01": {
+  "label": "filter basket rail 01",
+  "motion": null,
+  "location": [
+   0.1800861656665802,
+   -0.20000000298023224,
+   0.09604653716087341
+  ],
+  "parent": "PumpFilter"
+ },
+ "Filter basket rail 02": {
+  "label": "filter basket rail 02",
+  "motion": null,
+  "location": [
+   0.16643616557121277,
+   -0.20000000298023224,
+   0.10596384108066559
+  ],
+  "parent": "PumpFilter"
+ },
+ "Filter basket rail 03": {
+  "label": "filter basket rail 03",
+  "motion": null,
+  "location": [
+   0.14956383407115936,
+   -0.20000000298023224,
+   0.10596384108066559
+  ],
+  "parent": "PumpFilter"
+ },
+ "Filter basket rail 04": {
+  "label": "filter basket rail 04",
+  "motion": null,
+  "location": [
+   0.13591383397579193,
+   -0.20000000298023224,
+   0.09604653716087341
+  ],
+  "parent": "PumpFilter"
+ },
+ "Filter basket rail 05": {
+  "label": "filter basket rail 05",
+  "motion": null,
+  "location": [
+   0.1307000070810318,
+   -0.20000000298023224,
+   0.07999999821186066
+  ],
+  "parent": "PumpFilter"
+ },
+ "Filter basket rail 06": {
+  "label": "filter basket rail 06",
+  "motion": null,
+  "location": [
+   0.13591383397579193,
+   -0.20000000298023224,
+   0.0639534592628479
+  ],
+  "parent": "PumpFilter"
+ },
+ "Filter basket rail 07": {
+  "label": "filter basket rail 07",
+  "motion": null,
+  "location": [
+   0.14956383407115936,
+   -0.20000000298023224,
+   0.054036155343055725
+  ],
+  "parent": "PumpFilter"
+ },
+ "Filter basket rail 08": {
+  "label": "filter basket rail 08",
+  "motion": null,
+  "location": [
+   0.16643616557121277,
+   -0.20000000298023224,
+   0.054036155343055725
+  ],
+  "parent": "PumpFilter"
+ },
+ "Filter basket rail 09": {
+  "label": "filter basket rail 09",
+  "motion": null,
+  "location": [
+   0.1800861656665802,
+   -0.20000000298023224,
+   0.0639534592628479
+  ],
+  "parent": "PumpFilter"
+ },
+ "Filter basket rear end": {
+  "label": "filter basket rear end",
+  "motion": null,
+  "location": [
+   0.15800000727176666,
+   -0.16200000047683716,
+   0.07999999821186066
+  ],
+  "parent": "PumpFilter"
+ },
+ "Filter cap raised perimeter": {
+  "label": "filter cap raised perimeter",
+  "motion": null,
+  "location": [
+   0.15800000727176666,
+   -0.27524998784065247,
+   0.07999999821186066
+  ],
+  "parent": "PumpFilter"
+ },
+ "Filter continuous helical thread": {
+  "label": "filter continuous helical thread",
+  "motion": null,
+  "location": [
+   0.1906999945640564,
+   -0.25999999046325684,
+   0.07999999821186066
+  ],
+  "parent": "PumpFilter"
+ },
+ "Filter grip notch": {
+  "label": "filter grip notch",
+  "motion": null,
+  "location": [
+   0.15800000727176666,
+   -0.29179999232292175,
+   0.06199999898672104
+  ],
+  "parent": "PumpFilter"
+ },
+ "Filter grip notch.001": {
+  "label": "filter grip notch",
+  "motion": null,
+  "location": [
+   0.15800000727176666,
+   -0.29179999232292175,
+   0.09799999743700027
+  ],
+  "parent": "PumpFilter"
+ },
+ "Filter rubber sealing ring": {
+  "label": "filter rubber sealing ring",
+  "motion": null,
+  "location": [
+   0.15800000727176666,
+   -0.2644999921321869,
+   0.07999999821186066
+  ],
+  "parent": "PumpFilter"
+ },
+ "Filter threaded neck": {
+  "label": "filter threaded neck",
+  "motion": null,
+  "location": [
+   0.15800000727176666,
+   -0.25049999356269836,
+   0.07999999821186066
+  ],
+  "parent": "PumpFilter"
+ },
+ "Filter vertical turning grip": {
+  "label": "filter vertical turning grip",
+  "motion": null,
+  "location": [
+   0.15800000727176666,
+   -0.28349998593330383,
+   0.07999999821186066
+  ],
+  "parent": "PumpFilter"
+ },
+ "FilterHatch": {
+  "label": "right hinged pump access hatch",
+  "motion": {
+   "rotate": {
+    "axis": "Z",
+    "degrees": 105
+   }
+  },
+  "location": [
+   0.23100000619888306,
+   -0.3109999895095825,
+   0.07400000095367432
+  ],
+  "parent": null
+ },
+ "Fine radial door moulding": {
+  "label": "fine radial door moulding",
+  "motion": null,
+  "location": [
+   0.0,
+   -0.33642393350601196,
+   0.4560000002384186
+  ],
+  "parent": "Door"
+ },
+ "Fixed loading door hinge": {
+  "label": "fixed loading door hinge",
+  "motion": null,
+  "location": [
+   -0.23199999332427979,
+   -0.30399999022483826,
+   0.4099999964237213
+  ],
+  "parent": null
+ },
+ "Fixed loading door hinge.001": {
+  "label": "fixed loading door hinge",
+  "motion": null,
+  "location": [
+   -0.23199999332427979,
+   -0.30399999022483826,
+   0.5019999742507935
+  ],
+  "parent": null
+ },
+ "Fixed service hatch hinge pin": {
+  "label": "fixed service hatch hinge pin",
+  "motion": null,
+  "location": [
+   0.23100000619888306,
+   -0.3109999895095825,
+   0.07400000095367432
+  ],
+  "parent": null
+ },
+ "Glass perimeter seal": {
+  "label": "glass perimeter seal",
+  "motion": null,
+  "location": [
+   0.0,
+   -0.31850001215934753,
+   0.4560000002384186
+  ],
+  "parent": "Door"
+ },
+ "Green dosing insert": {
+  "label": "green dosing insert",
+  "motion": null,
+  "location": [
+   -0.21899999678134918,
+   -0.0430000014603138,
+   0.7820000052452087
+  ],
+  "parent": "DetergentDrawer"
+ },
+ "Green insert dosing well": {
+  "label": "green insert dosing well",
+  "motion": null,
+  "location": [
+   -0.21899999678134918,
+   -0.0430000014603138,
+   0.7870000004768372
+  ],
+  "parent": "DetergentDrawer"
+ },
+ "Hatch curved offset hinge web": {
+  "label": "hatch curved offset hinge web",
+  "motion": null,
+  "location": [
+   0.22100000083446503,
+   -0.2994999885559082,
+   0.07400000095367432
+  ],
+  "parent": "FilterHatch"
+ },
+ "Hatch hinge reinforcing rib 0": {
+  "label": "hatch hinge reinforcing rib 0",
+  "motion": null,
+  "location": [
+   0.20999999344348907,
+   -0.3100000023841858,
+   0.05999999865889549
+  ],
+  "parent": "FilterHatch"
+ },
+ "Hatch hinge reinforcing rib 1": {
+  "label": "hatch hinge reinforcing rib 1",
+  "motion": null,
+  "location": [
+   0.20999999344348907,
+   -0.3100000023841858,
+   0.06700000166893005
+  ],
+  "parent": "FilterHatch"
+ },
+ "Hatch hinge reinforcing rib 2": {
+  "label": "hatch hinge reinforcing rib 2",
+  "motion": null,
+  "location": [
+   0.20999999344348907,
+   -0.3100000023841858,
+   0.07400000095367432
+  ],
+  "parent": "FilterHatch"
+ },
+ "Hatch hinge reinforcing rib 3": {
+  "label": "hatch hinge reinforcing rib 3",
+  "motion": null,
+  "location": [
+   0.20999999344348907,
+   -0.3100000023841858,
+   0.08100000023841858
+  ],
+  "parent": "FilterHatch"
+ },
+ "Hatch hinge reinforcing rib 4": {
+  "label": "hatch hinge reinforcing rib 4",
+  "motion": null,
+  "location": [
+   0.20999999344348907,
+   -0.3100000023841858,
+   0.08799999952316284
+  ],
+  "parent": "FilterHatch"
+ },
+ "Hatch inner reinforcing rim": {
+  "label": "hatch inner reinforcing rim",
+  "motion": null,
+  "location": [
+   0.16699999570846558,
+   -0.30959999561309814,
+   0.07400000095367432
+  ],
+  "parent": "FilterHatch"
+ },
+ "Hatch latch clip": {
+  "label": "hatch latch clip",
+  "motion": null,
+  "location": [
+   0.1120000034570694,
+   -0.3050000071525574,
+   0.0820000022649765
+  ],
+  "parent": "FilterHatch"
+ },
+ "Hatch perimeter seam": {
+  "label": "hatch perimeter seam",
+  "motion": null,
+  "location": [
+   0.16699999570846558,
+   -0.3127000033855438,
+   0.07400000095367432
+  ],
+  "parent": null
+ },
+ "Internal base": {
+  "label": "internal base",
+  "motion": null,
+  "location": [
+   0.0,
+   0.004000000189989805,
+   0.020999999716877937
+  ],
+  "parent": null
+ },
+ "Left cabinet side": {
+  "label": "left cabinet side",
+  "motion": null,
+  "location": [
+   -0.29249998927116394,
+   0.00800000037997961,
+   0.4259999990463257
+  ],
+  "parent": null
+ },
+ "Liquid detergent insert": {
+  "label": "liquid detergent insert",
+  "motion": null,
+  "location": [
+   -0.21899999678134918,
+   -0.14300000667572021,
+   0.7710000276565552
+  ],
+  "parent": "DetergentDrawer"
+ },
+ "Lower front return": {
+  "label": "lower front return",
+  "motion": null,
+  "location": [
+   0.0,
+   -0.31299999356269836,
+   0.019999999552965164
+  ],
+  "parent": null
+ },
+ "Main wash divider": {
+  "label": "main wash divider",
+  "motion": null,
+  "location": [
+   -0.1589999943971634,
+   -0.13899999856948853,
+   0.7699999809265137
+  ],
+  "parent": "DetergentDrawer"
+ },
+ "Moving loading door hinge leaf": {
+  "label": "moving loading door hinge leaf",
+  "motion": null,
+  "location": [
+   -0.22200000286102295,
+   -0.3140000104904175,
+   0.4099999964237213
+  ],
+  "parent": "Door"
+ },
+ "Moving loading door hinge leaf.001": {
+  "label": "moving loading door hinge leaf",
+  "motion": null,
+  "location": [
+   -0.22200000286102295,
+   -0.3140000104904175,
+   0.5019999742507935
+  ],
+  "parent": "Door"
+ },
+ "Power key": {
+  "label": "power key",
+  "motion": null,
+  "location": [
+   0.10400000214576721,
+   -0.32199999690055847,
+   0.7379999756813049
+  ],
+  "parent": null
+ },
+ "Power key caption": {
+  "label": "power key caption",
+  "motion": null,
+  "location": [
+   0.10400000214576721,
+   -0.32359999418258667,
+   0.7260000109672546
+  ],
+  "parent": null
+ },
+ "Prewash compartment wall": {
+  "label": "prewash compartment wall",
+  "motion": null,
+  "location": [
+   -0.11900000274181366,
+   -0.055000003427267075,
+   0.7699999809265137
+  ],
+  "parent": "DetergentDrawer"
+ },
+ "ProgramKnob": {
+  "label": "wash programme selector",
+  "motion": null,
+  "location": [
+   -0.004000000189989805,
+   -0.32899999618530273,
+   0.800000011920929
+  ],
+  "parent": null
+ },
+ "Programme left 00": {
+  "label": "programme left 00",
+  "motion": null,
+  "location": [
+   -0.06499999761581421,
+   -0.3208000063896179,
+   0.828000009059906
+  ],
+  "parent": null
+ },
+ "Programme left 01": {
+  "label": "programme left 01",
+  "motion": null,
+  "location": [
+   -0.06499999761581421,
+   -0.3208000063896179,
+   0.8162000179290771
+  ],
+  "parent": null
+ },
+ "Programme left 02": {
+  "label": "programme left 02",
+  "motion": null,
+  "location": [
+   -0.06499999761581421,
+   -0.3208000063896179,
+   0.8044000267982483
+  ],
+  "parent": null
+ },
+ "Programme left 03": {
+  "label": "programme left 03",
+  "motion": null,
+  "location": [
+   -0.06499999761581421,
+   -0.3208000063896179,
+   0.7925999760627747
+  ],
+  "parent": null
+ },
+ "Programme left 04": {
+  "label": "programme left 04",
+  "motion": null,
+  "location": [
+   -0.06499999761581421,
+   -0.3208000063896179,
+   0.7807999849319458
+  ],
+  "parent": null
+ },
+ "Programme left 05": {
+  "label": "programme left 05",
+  "motion": null,
+  "location": [
+   -0.06499999761581421,
+   -0.3208000063896179,
+   0.7689999938011169
+  ],
+  "parent": null
+ },
+ "Programme right 00": {
+  "label": "programme right 00",
+  "motion": null,
+  "location": [
+   0.08299999684095383,
+   -0.3208000063896179,
+   0.828000009059906
+  ],
+  "parent": null
+ },
+ "Programme right 01": {
+  "label": "programme right 01",
+  "motion": null,
+  "location": [
+   0.08299999684095383,
+   -0.3208000063896179,
+   0.8162000179290771
+  ],
+  "parent": null
+ },
+ "Programme right 02": {
+  "label": "programme right 02",
+  "motion": null,
+  "location": [
+   0.08299999684095383,
+   -0.3208000063896179,
+   0.8044000267982483
+  ],
+  "parent": null
+ },
+ "Programme right 03": {
+  "label": "programme right 03",
+  "motion": null,
+  "location": [
+   0.08299999684095383,
+   -0.3208000063896179,
+   0.7925999760627747
+  ],
+  "parent": null
+ },
+ "Programme right 04": {
+  "label": "programme right 04",
+  "motion": null,
+  "location": [
+   0.08299999684095383,
+   -0.3208000063896179,
+   0.7807999849319458
+  ],
+  "parent": null
+ },
+ "Programme right 05": {
+  "label": "programme right 05",
+  "motion": null,
+  "location": [
+   0.08299999684095383,
+   -0.3208000063896179,
+   0.7689999938011169
+  ],
+  "parent": null
+ },
+ "Pump housing rear": {
+  "label": "pump housing rear",
+  "motion": null,
+  "location": [
+   0.15800000727176666,
+   -0.10700000077486038,
+   0.07999999821186066
+  ],
+  "parent": null
+ },
+ "Pump socket body": {
+  "label": "pump socket body",
+  "motion": null,
+  "location": [
+   0.15800000727176666,
+   -0.1899999976158142,
+   0.07999999821186066
+  ],
+  "parent": null
+ },
+ "Pump socket dark inner bore": {
+  "label": "pump socket dark inner bore",
+  "motion": null,
+  "location": [
+   0.15800000727176666,
+   -0.18700000643730164,
+   0.07999999821186066
+  ],
+  "parent": null
+ },
+ "Pump socket flange": {
+  "label": "pump socket flange",
+  "motion": null,
+  "location": [
+   0.15800000727176666,
+   -0.265500009059906,
+   0.07999999821186066
+  ],
+  "parent": null
+ },
+ "PumpFilter": {
+  "label": "drain pump filter",
+  "motion": {
+   "rotate": {
+    "axis": "Y",
+    "degrees": -720
+   },
+   "translate": [
+    0,
+    -0.16,
+    0
+   ]
+  },
+  "location": [
+   0.15800000727176666,
+   -0.25600001215934753,
+   0.07999999821186066
+  ],
+  "parent": null
+ },
+ "Rear cover fastener": {
+  "label": "rear cover fastener",
+  "motion": null,
+  "location": [
+   -0.210999995470047,
+   0.31790000200271606,
+   0.11900000274181366
+  ],
+  "parent": null
+ },
+ "Rear cover fastener.001": {
+  "label": "rear cover fastener",
+  "motion": null,
+  "location": [
+   -0.210999995470047,
+   0.31790000200271606,
+   0.7080000042915344
+  ],
+  "parent": null
+ },
+ "Rear cover fastener.002": {
+  "label": "rear cover fastener",
+  "motion": null,
+  "location": [
+   0.210999995470047,
+   0.31790000200271606,
+   0.11900000274181366
+  ],
+  "parent": null
+ },
+ "Rear cover fastener.003": {
+  "label": "rear cover fastener",
+  "motion": null,
+  "location": [
+   0.210999995470047,
+   0.31790000200271606,
+   0.7080000042915344
+  ],
+  "parent": null
+ },
+ "Rear service cover": {
+  "label": "rear service cover",
+  "motion": null,
+  "location": [
+   0.0,
+   0.3172999918460846,
+   0.414000004529953
+  ],
+  "parent": null
+ },
+ "Right cabinet side": {
+  "label": "right cabinet side",
+  "motion": null,
+  "location": [
+   0.29249998927116394,
+   0.00800000037997961,
+   0.4259999990463257
+  ],
+  "parent": null
+ },
+ "Rubber door bellows": {
+  "label": "rubber door bellows",
+  "motion": null,
+  "location": [
+   0.0,
+   -0.28700000047683716,
+   0.4560000002384186
+  ],
+  "parent": null
+ },
+ "Selector index": {
+  "label": "selector index",
+  "motion": null,
+  "location": [
+   -0.004000000189989805,
+   -0.33469998836517334,
+   0.8215000033378601
+  ],
+  "parent": "ProgramKnob"
+ },
+ "Selector silver bezel": {
+  "label": "selector silver bezel",
+  "motion": null,
+  "location": [
+   -0.004000000189989805,
+   -0.3230000138282776,
+   0.800000011920929
+  ],
+  "parent": null
+ },
+ "Service hinge mounting boss": {
+  "label": "service hinge mounting boss",
+  "motion": null,
+  "location": [
+   0.21799999475479126,
+   -0.28200000524520874,
+   0.04899999871850014
+  ],
+  "parent": null
+ },
+ "Service hinge mounting boss.001": {
+  "label": "service hinge mounting boss",
+  "motion": null,
+  "location": [
+   0.21799999475479126,
+   -0.28200000524520874,
+   0.10499999672174454
+  ],
+  "parent": null
+ },
+ "Service hinge screw": {
+  "label": "service hinge screw",
+  "motion": null,
+  "location": [
+   0.21799999475479126,
+   -0.2939999997615814,
+   0.04899999871850014
+  ],
+  "parent": null
+ },
+ "Service hinge screw.001": {
+  "label": "service hinge screw",
+  "motion": null,
+  "location": [
+   0.21799999475479126,
+   -0.2939999997615814,
+   0.10499999672174454
+  ],
+  "parent": null
+ },
+ "Service opening enamel return": {
+  "label": "service opening enamel return",
+  "motion": null,
+  "location": [
+   0.16699999570846558,
+   -0.3100000023841858,
+   0.07400000095367432
+  ],
+  "parent": null
+ },
+ "Service recess back": {
+  "label": "service recess back",
+  "motion": null,
+  "location": [
+   0.16699999570846558,
+   -0.2290000021457672,
+   0.07400000095367432
+  ],
+  "parent": null
+ },
+ "Service recess moulded wall": {
+  "label": "service recess moulded wall",
+  "motion": null,
+  "location": [
+   0.16699999570846558,
+   -0.26750001311302185,
+   0.07400000095367432
+  ],
+  "parent": null
+ },
+ "Service screw cross slot": {
+  "label": "service screw cross slot",
+  "motion": null,
+  "location": [
+   0.21799999475479126,
+   -0.295199990272522,
+   0.04899999871850014
+  ],
+  "parent": null
+ },
+ "Service screw cross slot.001": {
+  "label": "service screw cross slot",
+  "motion": null,
+  "location": [
+   0.21799999475479126,
+   -0.295199990272522,
+   0.04899999871850014
+  ],
+  "parent": null
+ },
+ "Service screw cross slot.002": {
+  "label": "service screw cross slot",
+  "motion": null,
+  "location": [
+   0.21799999475479126,
+   -0.295199990272522,
+   0.10499999672174454
+  ],
+  "parent": null
+ },
+ "Service screw cross slot.003": {
+  "label": "service screw cross slot",
+  "motion": null,
+  "location": [
+   0.21799999475479126,
+   -0.295199990272522,
+   0.10499999672174454
+  ],
+  "parent": null
+ },
+ "Softener compartment wall": {
+  "label": "softener compartment wall",
+  "motion": null,
+  "location": [
+   -0.21799999475479126,
+   -0.19599999487400055,
+   0.7699999809265137
+  ],
+  "parent": "DetergentDrawer"
+ },
+ "Spin speed display": {
+  "label": "spin speed display",
+  "motion": null,
+  "location": [
+   0.10100000351667404,
+   -0.32170000672340393,
+   0.7850000262260437
+  ],
+  "parent": null
+ },
+ "Stainless drum barrel": {
+  "label": "stainless drum barrel",
+  "motion": null,
+  "location": [
+   0.0,
+   -0.010999999940395355,
+   0.4560000002384186
+  ],
+  "parent": null
+ },
+ "Start pause icon": {
+  "label": "start pause icon",
+  "motion": null,
+  "location": [
+   0.26100000739097595,
+   -0.32120001316070557,
+   0.7975000143051147
+  ],
+  "parent": null
+ },
+ "Start pause outline end": {
+  "label": "start pause outline end",
+  "motion": null,
+  "location": [
+   0.26100000739097595,
+   -0.32089999318122864,
+   0.784500002861023
+  ],
+  "parent": null
+ },
+ "Start pause outline end.001": {
+  "label": "start pause outline end",
+  "motion": null,
+  "location": [
+   0.26100000739097595,
+   -0.32089999318122864,
+   0.815500020980835
+  ],
+  "parent": null
+ },
+ "Start pause outline side": {
+  "label": "start pause outline side",
+  "motion": null,
+  "location": [
+   0.24899999797344208,
+   -0.32089999318122864,
+   0.800000011920929
+  ],
+  "parent": null
+ },
+ "Start pause outline side.001": {
+  "label": "start pause outline side",
+  "motion": null,
+  "location": [
+   0.27300000190734863,
+   -0.32089999318122864,
+   0.800000011920929
+  ],
+  "parent": null
+ },
+ "SteamCare heading": {
+  "label": "steamcare heading",
+  "motion": null,
+  "location": [
+   0.24400000274181366,
+   -0.3208000063896179,
+   0.828000009059906
+  ],
+  "parent": null
+ },
+ "Temperature display": {
+  "label": "temperature display",
+  "motion": null,
+  "location": [
+   0.10100000351667404,
+   -0.32170000672340393,
+   0.8050000071525574
+  ],
+  "parent": null
+ },
+ "Temperature heading": {
+  "label": "temperature heading",
+  "motion": null,
+  "location": [
+   0.09799999743700027,
+   -0.32170000672340393,
+   0.8230000138282776
+  ],
+  "parent": null
+ },
+ "Thin glass retaining trim": {
+  "label": "thin glass retaining trim",
+  "motion": null,
+  "location": [
+   0.0,
+   -0.3255000114440918,
+   0.4560000002384186
+  ],
+  "parent": "Door"
+ },
+ "Time remaining display": {
+  "label": "time remaining display",
+  "motion": null,
+  "location": [
+   0.21799999475479126,
+   -0.32170000672340393,
+   0.8050000071525574
+  ],
+  "parent": null
+ },
+ "Top lid": {
+  "label": "top lid",
+  "motion": null,
+  "location": [
+   0.0,
+   0.0,
+   0.8389999866485596
+  ],
+  "parent": null
+ },
+ "Top lid seam": {
+  "label": "top lid seam",
+  "motion": null,
+  "location": [
+   0.0,
+   0.0,
+   0.8289999961853027
+  ],
+  "parent": null
+ },
+ "Touch divider Extra Rinse": {
+  "label": "touch divider extra rinse",
+  "motion": null,
+  "location": [
+   0.15000000596046448,
+   -0.3208000063896179,
+   0.7590000033378601
+  ],
+  "parent": null
+ },
+ "Touch divider Plus Steam": {
+  "label": "touch divider plus steam",
+  "motion": null,
+  "location": [
+   0.21199999749660492,
+   -0.3208000063896179,
+   0.7590000033378601
+  ],
+  "parent": null
+ },
+ "Touch divider Pods": {
+  "label": "touch divider pods",
+  "motion": null,
+  "location": [
+   0.24300000071525574,
+   -0.3208000063896179,
+   0.7590000033378601
+  ],
+  "parent": null
+ },
+ "Touch divider Prewash": {
+  "label": "touch divider prewash",
+  "motion": null,
+  "location": [
+   0.08799999952316284,
+   -0.3208000063896179,
+   0.7590000033378601
+  ],
+  "parent": null
+ },
+ "Touch divider Soft Plus": {
+  "label": "touch divider soft plus",
+  "motion": null,
+  "location": [
+   0.1809999942779541,
+   -0.3208000063896179,
+   0.7590000033378601
+  ],
+  "parent": null
+ },
+ "Touch divider Stains": {
+  "label": "touch divider stains",
+  "motion": null,
+  "location": [
+   0.11900000274181366,
+   -0.3208000063896179,
+   0.7590000033378601
+  ],
+  "parent": null
+ },
+ "Touch indicator Extra Rinse": {
+  "label": "touch indicator extra rinse",
+  "motion": null,
+  "location": [
+   0.16500000655651093,
+   -0.32089999318122864,
+   0.7649999856948853
+  ],
+  "parent": null
+ },
+ "Touch indicator Plus Steam": {
+  "label": "touch indicator plus steam",
+  "motion": null,
+  "location": [
+   0.22699999809265137,
+   -0.32089999318122864,
+   0.7649999856948853
+  ],
+  "parent": null
+ },
+ "Touch indicator Pods": {
+  "label": "touch indicator pods",
+  "motion": null,
+  "location": [
+   0.257999986410141,
+   -0.32089999318122864,
+   0.7649999856948853
+  ],
+  "parent": null
+ },
+ "Touch indicator Prewash": {
+  "label": "touch indicator prewash",
+  "motion": null,
+  "location": [
+   0.10300000011920929,
+   -0.32089999318122864,
+   0.7649999856948853
+  ],
+  "parent": null
+ },
+ "Touch indicator Soft Plus": {
+  "label": "touch indicator soft plus",
+  "motion": null,
+  "location": [
+   0.19599999487400055,
+   -0.32089999318122864,
+   0.7649999856948853
+  ],
+  "parent": null
+ },
+ "Touch indicator Stains": {
+  "label": "touch indicator stains",
+  "motion": null,
+  "location": [
+   0.1340000033378601,
+   -0.32089999318122864,
+   0.7649999856948853
+  ],
+  "parent": null
+ },
+ "Touch legend Extra Rinse": {
+  "label": "touch legend extra rinse",
+  "motion": null,
+  "location": [
+   0.16500000655651093,
+   -0.32100000977516174,
+   0.7574999928474426
+  ],
+  "parent": null
+ },
+ "Touch legend Plus Steam": {
+  "label": "touch legend plus steam",
+  "motion": null,
+  "location": [
+   0.22699999809265137,
+   -0.32100000977516174,
+   0.7574999928474426
+  ],
+  "parent": null
+ },
+ "Touch legend Pods": {
+  "label": "touch legend pods",
+  "motion": null,
+  "location": [
+   0.257999986410141,
+   -0.32100000977516174,
+   0.7574999928474426
+  ],
+  "parent": null
+ },
+ "Touch legend Prewash": {
+  "label": "touch legend prewash",
+  "motion": null,
+  "location": [
+   0.10300000011920929,
+   -0.32100000977516174,
+   0.7574999928474426
+  ],
+  "parent": null
+ },
+ "Touch legend Soft Plus": {
+  "label": "touch legend soft plus",
+  "motion": null,
+  "location": [
+   0.19599999487400055,
+   -0.32100000977516174,
+   0.7574999928474426
+  ],
+  "parent": null
+ },
+ "Touch legend Stains": {
+  "label": "touch legend stains",
+  "motion": null,
+  "location": [
+   0.1340000033378601,
+   -0.32100000977516174,
+   0.7574999928474426
+  ],
+  "parent": null
+ },
+ "White fascia lower bridge": {
+  "label": "white fascia lower bridge",
+  "motion": null,
+  "location": [
+   0.0,
+   -0.3149999976158142,
+   0.7310000061988831
+  ],
+  "parent": null
+ },
+ "Wool badge lettering": {
+  "label": "wool badge lettering",
+  "motion": null,
+  "location": [
+   0.23899999260902405,
+   -0.3192000091075897,
+   0.671999990940094
+  ],
+  "parent": null
+ },
+ "Wool badge symbols": {
+  "label": "wool badge symbols",
+  "motion": null,
+  "location": [
+   0.23899999260902405,
+   -0.3192000091075897,
+   0.6830000281333923
+  ],
+  "parent": null
+ },
+ "Wool care badge": {
+  "label": "wool care badge",
+  "motion": null,
+  "location": [
+   0.23899999260902405,
+   -0.31859999895095825,
+   0.6809999942779541
+  ],
+  "parent": null
+ }
+}

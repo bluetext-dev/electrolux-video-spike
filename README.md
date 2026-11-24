@@ -51,7 +51,7 @@ or thread is:
 | Blue drain guide | folds down 88° |
 | Pump filter | unscrews two turns and comes out 16 cm |
 
-The check renders (`runs/model/check_vN-*.png`) are stored in artifact `spike-runs`, and two stills from the final video are in
+The check renders (`check_vN-*.png`) are in `outputs/`, and two stills from the final video are in
 `stills.jpg`. The side-by-side comparisons with the photos (`compare_*.jpg`) stay
 local, because they contain the retailer's photos.
 
@@ -256,7 +256,7 @@ typeface is proprietary, so the line under the logo and the captions use Arial a
 ## The room from Electrolux's own photos
 
 Peder supplied two photos from electrolux.com of this model's family in a Scandinavian laundry
-room. They are kept locally in `photos/scene-reference*.png` and not committed. The machine now
+room. They are in `photos/scene-reference*.png`. The machine now
 stands in that room. The film is `EW7F7649U2-care-guide-drain-pump-filter-room.mp4`.
 
 - **Assets** (`fetch_assets.py`): CC0 from Poly Haven:
@@ -331,27 +331,50 @@ The film is now `EW7F7649U2-care-guide-drain-pump-filter-room-v3.mp4`, 78.5 s.
   into the existing frames, because Cycles with a fixed seed renders the same frame the same way.
   That took 108 min for 640 frames, against about 5 h for the whole film.
 
+## What is in this repository
+
+| Path | What |
+|---|---|
+| `films/` | The rendered films. The latest is `EW7F7649U2-care-guide-drain-pump-filter-room-v3.mp4`; the Unreal one is `EW7F7649U2-clean-drain-pump-filter-unreal-kore.mp4`. |
+| `outputs/` | The stills, check renders and comparisons this README names, and the model spend log (`usage.jsonl`). |
+| `photos/` | The retailer's product photos of the EW7F7649U2 (elon.se gallery) and the two room reference photos from electrolux.com. They are Electrolux's and the retailer's, here only as the spike's input. |
+| `brand/` | The Electrolux logo (Wikimedia Commons; a trademark of Electrolux). |
+| `assets/` | The CC0 textures, models and HDRI from Poly Haven that the room uses (`fetch_assets.py` downloads them again). |
+| `runs/model/`, `runs/env/`, `runs/unreal/` | Every script astra wrote: the model, the room and the Unreal build, version by version. |
+| `runs/procedure*.json`, `runs/timing*.json` | The procedures astra wrote and the timings that follow from the narration. |
+| `runs/audio/`, `runs/audio_Kore_v2/` | The narration: macOS `say` for the first procedure, Google's Kore voice for the latest. Both were generated again for this repository, so they differ by fractions of a second from the ones in the films. |
+| `runs/music/bed.mp3` | The Lyria music bed. |
+| `unreal-project/Spike.uproject` | An empty Unreal project with the plugins the Unreal half needs. It was written again from the plugin list and has not been opened in Unreal. |
+
 ## Run it
 
+On macOS with Blender 5.1 in `/Applications` (or `BLENDER=/path/to/blender`), from the repository's root:
+
+    ./make_film.sh --preview     # quarter-size frames, about 2 minutes
+    ./make_film.sh               # the film with intro, narration and music: runs/final/film.mp4
+
+That needs no key and no cloud account: it plays the model, procedure, narration and music that are
+already here. It makes the studio version; the room version (`runs/env/env_v8.py`) was rendered with
+Cycles on a GPU machine and is in `films/`.
+
+To have astra do the work again, from the photos:
+
     export OPENROUTER_API_KEY=...        # spend is capped by VP_BUDGET_USD, default $10
-    # photos/01.jpg … 10.jpg: the elon.se gallery for EW7F7649U2 (not committed)
     python3 model.py 3                   # stage 1, astra; keeps every version in runs/model/
     python3 procedure.py runs/model/check_v3-parts.json
-    python3 narrate.py
+    python3 narrate.py                   # macOS say; or tts_google.py with VP_GCP_PROJECT set
     B=/Applications/Blender.app/Contents/MacOS/Blender
-    $B -b runs/model/model_v3.blend --python video.py -- runs/procedure.json runs/timing.json runs/preview --preview
     $B -b runs/model/model_v3.blend --python video.py -- runs/procedure.json runs/timing.json runs/final
     $B -b --factory-startup --python assemble.py -- runs/final runs/timing.json runs/final/out.mp4
 
-Blender 5.1.2. Python 3.12, standard library only; Pillow for the overlays. For the Unreal half:
-`python3 unreal_spike.py build 5`, then `python3 unreal_spike.py render 1280 720`, then
-`runs/unreal/assemble.sh` on the VM.
+Blender 5.1.2. Python 3.12, standard library only; Pillow for the overlays (`requirements.txt`).
+The scripts assume macOS: the Blender path, the system fonts, `say`, `afinfo` and `/etc/ssl/cert.pem`.
 
-The photos are the retailer's product photos and are not committed. Rendered frames and
-`.blend` files are not committed either. The spike's scripts (`*.py`, `*.sh`) and the two profiling
-fixture inputs (`runs/procedure_v3.json`, `runs/timing_v2.json`) live in git; the check renders,
-overlay PNGs, earlier procedures, logs and rendered MP4s under `runs/` are not in this repository,
-so the output files named above (stills, comparisons, MP4s) are not included.
+For the Unreal half, a Linux machine with a GPU and Unreal Engine 5.8 is needed, reached with
+`gcloud compute ssh`. Set `VP_GCP_PROJECT`, `VP_VM_NAME`, `VP_VM_ZONE`, `VP_VM_PROJECT` (the folder
+holding `Spike.uproject` on that machine) and `VP_VM_UE` (Unreal's `Engine/Binaries/Linux`). Then
+`python3 unreal_spike.py build 5`, `python3 unreal_spike.py render 1280 720`, and
+`runs/unreal/assemble.sh` on that machine. The hackathon's render machines already hold the tested
+project at `~/spike`.
 
-The Electrolux logo is not included either: `intro.py` expects it at `brand/electrolux-logo.svg`.
-`tts_google.py` and `unreal_spike.py` read the Google Cloud project from `VP_GCP_PROJECT`.
+Rendered frames and `.blend` files are not committed; `make_film.sh` makes them.

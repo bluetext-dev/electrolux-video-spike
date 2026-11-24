@@ -11,8 +11,8 @@ from llm import ask, code_block, image_part, HERE
 
 VM = ["--project", os.environ["VP_GCP_PROJECT"], "--zone", os.environ.get("VP_VM_ZONE", "us-central1-a")]
 NAME = os.environ.get("VP_VM_NAME", "elux-unreal-spike-2")
-REMOTE = "/home/peder/spike"
-UE = "/home/peder/UE/Engine/Binaries/Linux"
+REMOTE = os.environ.get("VP_VM_PROJECT", "/home/peder/spike")
+UE = os.environ.get("VP_VM_UE", "/home/peder/UE/Engine/Binaries/Linux")
 OUT = os.path.join(HERE, "runs", "unreal")
 
 CONTRACT = f"""You write one Python script for Unreal Engine 5.8.3 (Linux), run headless as a commandlet:

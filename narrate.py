@@ -24,7 +24,7 @@ for i, s in enumerate(proc["steps"], 1):
     info = subprocess.run(["afinfo", path], capture_output=True, text=True).stdout
     dur = float(re.search(r"estimated duration: ([\d.]+)", info).group(1))
     length = max(float(s.get("min_seconds", 3)), dur + 2 * GAP)
-    steps.append({"start": round(t, 3), "length": round(length, 3), "audio": path, "audio_seconds": dur})
+    steps.append({"start": round(t, 3), "length": round(length, 3), "audio": os.path.relpath(path, HERE), "audio_seconds": dur})
     t += length
 timing = {"fps": FPS, "title_seconds": TITLE_SECONDS, "gap": GAP, "total": round(t, 3), "steps": steps}
 json.dump(timing, open(os.path.join(HERE, "runs", "timing.json"), "w"), indent=1)

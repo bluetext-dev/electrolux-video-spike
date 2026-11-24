@@ -1,0 +1,92 @@
+{
+ "oak_veneer_01": {
+  "kind": "texture",
+  "maps": {
+   "diffuse": "assets/textures/oak_veneer_01/diffuse.jpg",
+   "normal": "assets/textures/oak_veneer_01/normal.jpg",
+   "roughness": "assets/textures/oak_veneer_01/roughness.jpg",
+   "displacement": "assets/textures/oak_veneer_01/displacement.jpg",
+   "ao": "assets/textures/oak_veneer_01/ao.jpg"
+  }
+ },
+ "marble_01": {
+  "kind": "texture",
+  "maps": {
+   "diffuse": "assets/textures/marble_01/diffuse.jpg",
+   "normal": "assets/textures/marble_01/normal.jpg",
+   "roughness": "assets/textures/marble_01/roughness.jpg",
+   "displacement": "assets/textures/marble_01/displacement.jpg",
+   "ao": "assets/textures/marble_01/ao.jpg"
+  }
+ },
+ "concrete_floor_02": {
+  "kind": "texture",
+  "maps": {
+   "diffuse": "assets/textures/concrete_floor_02/diffuse.jpg",
+   "normal": "assets/textures/concrete_floor_02/normal.jpg",
+   "roughness": "assets/textures/concrete_floor_02/roughness.jpg",
+   "displacement": "assets/textures/concrete_floor_02/displacement.jpg",
+   "ao": "assets/textures/concrete_floor_02/ao.jpg"
+  }
+ },
+ "white_plaster_02": {
+  "kind": "texture",
+  "maps": {
+   "diffuse": "assets/textures/white_plaster_02/diffuse.jpg",
+   "normal": "assets/textures/white_plaster_02/normal.jpg",
+   "roughness": "assets/textures/white_plaster_02/roughness.jpg",
+   "displacement": "assets/textures/white_plaster_02/displacement.jpg",
+   "ao": "assets/textures/white_plaster_02/ao.jpg"
+  }
+ },
+ "denim_fabric": {
+  "kind": "texture",
+  "maps": {
+   "diffuse": "assets/textures/denim_fabric/diffuse.jpg",
+   "normal": "assets/textures/denim_fabric/normal.jpg",
+   "roughness": "assets/textures/denim_fabric/roughness.jpg",
+   "displacement": "assets/textures/denim_fabric/displacement.jpg",
+   "ao": "assets/textures/denim_fabric/ao.jpg"
+  }
+ },
+ "wicker_basket_01": {
+  "kind": "model",
+  "gltf": "assets/models/wicker_basket_01/wicker_basket_01_2k.gltf",
+  "dimensions_mm": [
+   383.2242637872696,
+   295.01520097255707,
+   117.42293369024992
+  ]
+ },
+ "potted_plant_02": {
+  "kind": "model",
+  "gltf": "assets/models/potted_plant_02/potted_plant_02_2k.gltf",
+  "dimensions_mm": [
+   701.1570334434509,
+   657.3865860700607,
+   841.1787391305552
+  ]
+ },
+ "multi_cleaner_bottle": {
+  "kind": "model",
+  "gltf": "assets/models/multi_cleaner_bottle/multi_cleaner_bottle_2k.gltf",
+  "dimensions_mm": [
+   88.47218751907349,
+   89.751485735178,
+   228.56293622158105
+  ]
+ },
+ "bleach_bottle": {
+  "kind": "model",
+  "gltf": "assets/models/bleach_bottle/bleach_bottle_2k.gltf",
+  "dimensions_mm": [
+   88.39113637804985,
+   61.21089309453964,
+   293.7394976615906
+  ]
+ },
+ "photo_studio_loft_hall": {
+  "kind": "hdri",
+  "file": "assets/hdri/photo_studio_loft_hall.hdr"
+ }
+}
